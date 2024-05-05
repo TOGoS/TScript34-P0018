@@ -56,11 +56,10 @@ To publish:
   - If all goes well you should be prompted to unlock your GPG signing
     key, which will be used to generate some `.asc` files, and then
     P0018 will generate `.md5` and `.sha1` files and cram everything
-    needed - the POM file, the executable, sources, and javadoc
+    needed--the POM file, the executable, sources, and javadoc
     JARs, `.asc` signature files for each of those, and `.md5`
-    and `.sha1` files for everything.
-  - There should now be a zip file under target
-    named as artifact ID + "-" + version + "-package.zip".
+    and `.sha1` files for everything--into a zip file named
+    named "target/" + artifact ID + "-" + version + "-package.zip".
 - Go to https://central.sonatype.com/publishing ,
   - Click 'Publish Component'
   - Enter a 'deployment name'
