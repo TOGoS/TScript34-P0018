@@ -26,9 +26,9 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:git://github.com/TOGoS/tscript34-p0018.git</connection>
-		<developerConnection>scm:git:ssh://github.com:TOGoS/tscript34-p0018.git</developerConnection>
-		<url>http://github.com/TOGoS/tscript34-p0018</url>
+		<connection>scm:git:git://github.com/TOGoS/TScript34-P0018.git</connection>
+		<developerConnection>scm:git:ssh://github.com:TOGoS/TScript34-P0018.git</developerConnection>
+		<url>http://github.com/TOGoS/TScript34-P0018</url>
 	</scm>
 	
 	<dependencies>
